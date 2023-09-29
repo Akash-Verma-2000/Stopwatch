@@ -1,0 +1,88 @@
+<!-- THIS PROJECT IS DEVELOPED AND DESIGNED BY AKASH VERMA -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+
+    <!-- THIS STYLE SHEET IS ONLY FOR COMMON STYLES  -->
+    <link rel="stylesheet" href="commonStyles.css">
+
+    <!-- THIS STYLE SHEET IS ONLY FOR RESPONSIVE STYLES -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- THIS STYLE SHEET IS IMPORTING ICONS, USED IN THE STOPWATCH -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- THIS IS THE MAIN BODY OF THE STOPWATCH -->
+    <div class="container">
+        <!-- THIS ROW IS CONTAINING TIMER BLOCKS -->
+        <div class="row-timer">
+            <!-- HOURS BLOCK -->
+            <div class="col-timer">
+                <p id="hrs">00</p>
+            </div>
+            <!-- THIS IS FOR MEDIUM AND BELOW DEVICES TO MAINTAIN THE GAPE BETWEEN DIGITS -->
+            <p class="timer-divider">:</p>
+            <!-- MINUTES  BLOCK -->
+            <div class="col-timer">
+                <p id="min">00</p>
+            </div>
+            <!-- THIS IS FOR MEDIUM AND BELOW DEVICES TO MAINTAIN THE GAPE BETWEEN DIGITS -->
+            <p class="timer-divider">:</p>
+            <!-- SECONDS BLOCK -->
+            <div class="col-timer">
+                <p id="sec">00</p>
+            </div>
+            <!-- THIS IS FOR MEDIUM AND BELOW DEVICES TO MAINTAIN THE GAPE BETWEEN DIGITS -->
+            <p class="timer-divider">:</p>
+            <!-- MICROSECONDS BLOCK -->
+            <div class="col-timer">
+                <p id="mic">00</p>
+            </div>
+        </div>
+
+        <!-- THIS ROW IS CONTAINING LABELS FOR EACH TIMER BLOCK -->
+        <div class="row-label">
+            <!-- HOURS LABEL -->
+            <div class="col-label">
+                <p>HRS</p>
+            </div>
+            <!-- MINUTES LABEL -->
+            <div class="col-label">
+                <p>MIN</p>
+            </div>
+            <!-- SECONDS LABEL -->
+            <div class="col-label">
+                <p>SEC</p>
+            </div>
+            <!-- MICROSECONDS LABEL -->
+            <div class="col-label">
+                <p>MIC</p>
+            </div>
+        </div>
+        <!-- THIS ROW IS CONTAINING BUTTONS  -->
+        <div class="row-button">
+            <!-- START BUTTON -->
+            <button class="col-button" id="start-button">
+                <i class="bi bi-pause-btn"></i>
+            </button>
+            <!-- STOP BUTTON -->
+            <button class="col-button" id="stop-button">
+                <i class="bi bi-play-circle"></i>
+            </button>
+            <!-- RESET BUTTON -->
+            <button class="col-button" id="reset-button">
+                <i class="bi bi-arrow-repeat"></i>
+            </button>
+        </div>
+    </div>
+    <!-- JAVA SCRIPT FILE -->
+    <script src="script.js"></script>
+</body>
+
+</html>

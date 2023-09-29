@@ -1,0 +1,138 @@
+/* THIS BLOCK OF CODE IS HAVING STYLES FOR EXTRA SMALL DEVICES */
+@media only screen and (min-width: 0px) {
+
+    /* MAIN BODY OF THE STOPWATCH */
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    /* THIS ROW IS CONTAINING TIMER BLOCKS  */
+    .row-timer {
+        background-color: rgba(8, 58, 36, 0.5);
+    }
+
+    /* TIMER BLOCKS */
+    .col-timer {
+        border: 0px;
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 40px;
+    }
+
+    /* THIS IS FOR MEDIUM AND BELOW DEVICES TO MAINTAIN THE GAPE BETWEEN DIGITS  */
+    .timer-divider {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    /* LABEL BLOCKS */
+    .col-label {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* THIS ROW IS CONTAINING BUTTON BLOCKS  */
+    .row-button {
+        width: 100%;
+    }
+
+    /* BUTTON BLOCKS */
+    .col-button {
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 5px solid #03163300;
+        background-color: rgba(8, 58, 36, 0);
+    }
+
+    /* HOVER CLASS FOR BUTTONS */
+    .col-button:hover {
+        background-color: rgba(8, 58, 36, 0.042);
+        color: #031633;
+    }
+}
+
+
+/* THIS BLOCK OF CODE IS HAVING STYLES FOR SMALL DEVICES */
+@media only screen and (min-width: 576px) {
+
+    /* MAIN BODY OF THE STOPWATCH */
+    .container {
+        width: 60%;
+        padding: 10px;
+    }
+
+    /* LABEL BLOCKS */
+    .col-label {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+/* THIS BLOCK OF CODE IS HAVING STYLES FOR MEDIUM DEVICES */
+@media only screen and (min-width: 992px) {
+
+    /* MAIN BODY OF THE STOPWATCH */
+    .container {
+        width: 70%;
+        padding: 10px;
+    }
+}
+
+/* THIS BLOCK OF CODE IS HAVING STYLES FOR LARGE DEVICES AND ABOVE*/
+@media only screen and (min-width: 1200px) {
+
+    /* MAIN BODY OF THE STOPWATCH */
+    .container {
+        width: 70%;
+        padding: 10px;
+    }
+
+    /* THIS ROW IS CONTAINING TIMER BLOCKS  */
+    .row-timer {
+        background-color: rgba(255, 255, 255, 0.201);
+    }
+
+    /* TIMER BLOCKS */
+    .col-timer {
+        border: 5px solid #031633;
+        background-color: rgba(8, 58, 36, 0.5);
+        font-size: 100px;
+    }
+
+    /* THIS IS FOR MEDIUM AND BELOW DEVICES TO MAINTAIN THE GAPE BETWEEN DIGITS  */
+    .timer-divider {
+        display: none;
+    }
+
+    /* LABEL BLOCKS */
+    .col-label {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    /* THIS ROW IS CONTAINING BUTTON BLOCKS  */
+    .row-button {
+        padding: 10px;
+        width: 60%;
+    }
+
+    /* BUTTON BLOCKS */
+    .col-button {
+        height: 100px;
+        width: 100px;
+        border: 5px solid #031633;
+    }
+
+    /* HOVER CLASS FOR BUTTONS */
+    .col-button:hover {
+        color: white;
+        background-color: rgb(8, 58, 36, 0.5);
+    }
+
+    /* ACTIVE CLASS FOR BUTTONS */
+    .col-button:active {
+        background-color: rgb(8, 58, 36);
+    }
+}

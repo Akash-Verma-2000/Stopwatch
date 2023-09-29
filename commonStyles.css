@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN BODY OF THE STOPWATCH */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #031633;
+    border-radius: 50px;
+    background-image: url("container-background.jpg");
+    background-size: cover;
+    box-shadow: 0 0 50px 15px #48abe0;
+}
+
+/* THIS ROW IS CONTAINING TIMER BLOCKS  */
+.row-timer {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid #031633;
+    justify-content: space-evenly;
+}
+
+/* TIMER BLOCKS */
+.col-timer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    border: 5px solid #031633;
+    background-color: rgba(8, 58, 36, 0.5);
+    color: rgb(255, 0, 0);
+}
+
+/* THIS ROW IS CONTAINING LABELS FOR EACH TIMER BLOCK */
+.row-label {
+    background-color: rgba(255, 255, 255, 0.201);
+    display: flex;
+    height: 10%;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid #031633;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* LABEL BLOCKS */
+.col-label {
+    color: rgb(255, 255, 255);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+
+/* THIS ROW IS CONTAINING BUTTON BLOCKS  */
+.row-button {
+    border: 5px solid #031633;
+    background-color: rgba(255, 255, 255, 0.201);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* BUTTON BLOCKS */
+.col-button {
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid #031633;
+    background-color: rgba(8, 58, 36, 0.5);
+}
+
+/* HOVER CLASS FOR BUTTONS */
+.col-button:hover {
+    background-color: rgb(8, 58, 36);
+}
